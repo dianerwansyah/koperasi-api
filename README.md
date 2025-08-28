@@ -25,7 +25,7 @@ Backend menggunakan **Laravel** + **Sanctum**.
 1. Clone repository:
 
 ```bash
-git clone <repo-url> koperasi-api
+git clone [<repo-url> koperasi-api](https://github.com/dianerwansyah/koperasi-api)
 cd koperasi-api
 ```
 
@@ -40,12 +40,32 @@ php artisan key:generate
 3. Konfigurasi `.env`:
 
 ```env
+APP_NAME=KoperasiAPI
+APP_ENV=local
+APP_KEY=base64:fC2FpoVCwouvymvomWhZTKJoQq+idTbN5OYL9CcZUtA=
+APP_DEBUG=true
+APP_URL=http://localhost
+
+APP_LOCALE=en
+APP_FALLBACK_LOCALE=en
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=koperasi
+DB_DATABASE=koperasi_db 
 DB_USERNAME=root
 DB_PASSWORD=
+
+SESSION_DRIVER=file
+SESSION_LIFETIME=120
+
+FILESYSTEM_DISK=public 
+
+SANCTUM_STATEFUL_DOMAINS=localhost
+SESSION_DOMAIN=localhost
+
+CACHE_DRIVER=file
+QUEUE_CONNECTION=sync
 ```
 
 4. Migrasi database:
