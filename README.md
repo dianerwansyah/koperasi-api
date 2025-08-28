@@ -42,7 +42,7 @@ php artisan key:generate
 ```env
 APP_NAME=KoperasiAPI
 APP_ENV=local
-APP_KEY=base64:fC2FpoVCwouvymvomWhZTKJoQq+idTbN5OYL9CcZUtA=
+APP_KEY=
 APP_DEBUG=true
 APP_URL=http://localhost
 
