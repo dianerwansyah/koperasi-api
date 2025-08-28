@@ -25,7 +25,7 @@ Backend menggunakan **Laravel** + **Sanctum**.
 1. Clone repository:
 
 ```bash
-git clone koperasi-api](https://github.com/dianerwansyah/koperasi-api)
+git clone [koperasi-api](https://github.com/dianerwansyah/koperasi-api)](https://github.com/dianerwansyah/koperasi-api)
 cd koperasi-api
 ```
 
